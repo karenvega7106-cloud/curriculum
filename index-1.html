@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CV - Karen Vega Aguilar</title>
+<meta name="description" content="Currículum de Karen Vega Aguilar, estudiante de Ingeniería en Negocios en Guadalajara.">
+<style>
+  :root {
+    --paper: #ffffff;
+    --bg: #eceff1;
+    --ink: #1f2933;
+    --muted: #5f6b76;
+    --accent: #1f5f6b;
+    --line: #d5dbe0;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    line-height: 1.55;
+  }
+  .page {
+    max-width: 820px;
+    margin: 24px auto;
+    background: var(--paper);
+    padding: 48px 56px;
+    box-shadow: 0 1px 4px rgba(0,0,0,.12);
+  }
+  header { border-bottom: 3px solid var(--accent); padding-bottom: 18px; margin-bottom: 8px; }
+  h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin: 0 0 6px;
+    letter-spacing: .2px;
+  }
+  .contact { margin: 0; color: var(--muted); font-size: .95rem; }
+  .contact span { display: inline-block; margin-right: 18px; }
+  h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.2rem;
+    color: var(--accent);
+    margin: 26px 0 10px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid var(--line);
+  }
+  .item { margin-bottom: 16px; }
+  .item-head { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+  .item-head strong { font-size: 1.02rem; }
+  .date { color: var(--muted); font-size: .92rem; }
+  .place { color: var(--muted); font-size: .95rem; margin: 0; }
+  ul { margin: 6px 0 0; padding-left: 20px; }
+  li { margin-bottom: 2px; }
+  p { margin: 0; }
+  .skills { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; list-style: none; margin: 0; }
+  .skills li {
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    padding: 3px 10px;
+    font-size: .93rem;
+    margin: 0;
+  }
+  @media (max-width: 600px) {
+    .page { margin: 0; padding: 28px 22px; box-shadow: none; }
+    h1 { font-size: 1.9rem; }
+  }
+  @media print {
+    body { background: #fff; }
+    .page { margin: 0; box-shadow: none; max-width: none; padding: 0; }
+    @page { margin: 18mm; }
+  }
+</style>
+</head>
+<body>
+<main class="page">
+  <header>
+    <h1>Karen Vega Aguilar</h1>
+    <p class="contact">
+      <span>Guadalajara, Jalisco</span>
+      <span>karenvegaaguilar2003@gmail.com</span>
+    </p>
+  </header>
+
+  <section>
+    <h2>Perfil</h2>
+    <p>Estudiante de 3er semestre de Ingeniería en Negocios con experiencia en atención al cliente, manejo de caja e inventario. Responsable, organizada y con facilidad para trabajar con el público.</p>
+  </section>
+
+  <section>
+    <h2>Experiencia laboral</h2>
+
+    <div class="item">
+      <div class="item-head"><strong>Cajera</strong><span class="date">Actualidad</span></div>
+      <p class="place">Abarrotes Doña Chuy</p>
+      <ul>
+        <li>Atención directa a clientes</li>
+        <li>Control de inventario</li>
+        <li>Realización de corte de caja</li>
+      </ul>
+    </div>
+
+    <div class="item">
+      <div class="item-head"><strong>Mesera</strong><span class="date">2023</span></div>
+      <ul>
+        <li>Atención a clientes y servicio de mesas</li>
+      </ul>
+    </div>
+
+    <div class="item">
+      <div class="item-head"><strong>Servicio social</strong><span class="date">2023 – 2024</span></div>
+      <p class="place">Biblioteca de la Prepa 17</p>
+      <ul>
+        <li>Alta y registro de libros</li>
+        <li>Control de entradas de visitantes</li>
+        <li>Préstamo de libros y seguimiento de entregas atrasadas por llamada</li>
+        <li>Organización y acomodo del acervo</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Educación</h2>
+    <div class="item">
+      <div class="item-head"><strong>Ingeniería en Negocios</strong><span class="date">En curso, 3er semestre</span></div>
+    </div>
+    <div class="item">
+      <div class="item-head"><strong>Bachillerato en Diseño Industrial</strong><span class="date">2021 – 2024</span></div>
+      <p class="place">Prepa 17</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Idiomas</h2>
+    <ul>
+      <li>Inglés: nivel B1 (curso en marcha)</li>
+      <li>Español: nativo</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Habilidades</h2>
+    <ul class="skills">
+      <li>Atención al cliente</li>
+      <li>Manejo de caja</li>
+      <li>Control de inventario</li>
+      <li>Organización</li>
+      <li>Trabajo bajo presión</li>
+    </ul>
+  </section>
+</main>
+</body>
+</html>
